@@ -2,3 +2,23 @@ body {
 	background: url("../img/blackorchid.png") repeat;
 	color: #fff;
 }
+
+ul {
+list-style: none;
+}
+
+section.red {
+	background-color: firebrick;
+}
+
+section.yellow {
+	background: gold;
+}
+
+section.blue {
+	background-color: #3333ff;
+}
+
+section.green {
+	background-color: #006600;
+}
