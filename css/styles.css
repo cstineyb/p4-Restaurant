@@ -22,3 +22,8 @@ section.blue {
 section.green {
 	background-color: #006600;
 }
+
+/*STICKY*/
+.ui.fixed.sticky + p {
+  margin-top: 39px;
+}
