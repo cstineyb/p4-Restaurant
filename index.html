@@ -16,16 +16,29 @@
 </head>
 
 <body>
-  
-  <h1>Maru Sushi</h1>
+<header>
+    
+<img src="img/logo.png">
+    <ul class="top">
+    <li><a href="https://www.google.com/maps/place/Sushi+Maru/@47.659942,-117.423774,15z/data=!4m2!3m1!1s0x0:0x4100979c0cf5d029" target="_blank"><i class="map icon"></i></a></li>
+    <li><a href="tel:509-455-3900"><i class="call icon"></i></a></li>
+    <li><a href="mailto:maruspokane@gmail.com"><i class="mail outline icon"></i></a></li>
+    </ul>
+</header>
 
-Maru Sushi, River Park Square
-<img src ="img/daruma_blur.jpg">
-<a href="https://www.google.com/maps/place/Sushi+Maru/@47.659942,-117.423774,15z/data=!4m2!3m1!1s0x0:0x4100979c0cf5d029">808 West Main Avenue Suite #105
-Spokane, WA 99201<i class="map icon"></i></a>
-<a href="tel:509-455-3900">509.455.3900</a>
-<a href="mailto:maruspokane@gmail.com"><i class="mail outline icon"></i></a>
+<nav id="main-nav">
 
+    <ul>
+    <li class="yellow">$1.50 - Yellow</li>
+    <li class="blue">$2.25 - Light Blue</li>
+    <li class="red">$2.75 - Red</li>
+    <li class="green">$3.50 - Green</li>
+    <li class="raw">Raw<i class="asterisk icon"></i></li>
+    <li class="veg">Vegetarian<i class="leaf icon"></i></li>
+    <li class="spicy">Spicy<i class="fire icon"></i></li>
+    </ul>
+
+</nav>
 
 
 <ul>
@@ -118,8 +131,14 @@ Rum-soaked Baby Eel, pineapple, jicama, wasabi rice and shiso in nori
   
   
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="js/jquery.sticky.js"</script>
   <script src="js/semantic.min.js"></script>
   <script src="js/scripts.js"></script>
+   <script>
+    $(window).load(function(){
+      $("#main-nav").sticky({ topSpacing: 0 });
+    });
+  </script>
 
 </body>
 </html>

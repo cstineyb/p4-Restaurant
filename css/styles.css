@@ -3,6 +3,10 @@ body {
 	color: #fff;
 }
 
+header {
+	background: url("../img/daruma_blur.jpg");
+}
+
 ul {
 list-style: none;
 }
@@ -22,8 +26,13 @@ section.blue {
 section.green {
 	background-color: #006600;
 }
+.top  {
+	font-size: 4em;
+	}
 
-/*STICKY*/
-.ui.fixed.sticky + p {
-  margin-top: 39px;
+.top li {
+	display: inline;
+	margin:10px 50px;
+
 }
+
