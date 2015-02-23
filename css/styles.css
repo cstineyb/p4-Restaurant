@@ -4,7 +4,10 @@ body {
 }
 
 header {
-	background: url("../img/daruma_blur.jpg");
+	background: url("../img/daruma_blur.jpg") no-repeat;
+	position: relative;
+	width: 100%;
+
 }
 
 ul {
@@ -28,6 +31,7 @@ section.green {
 }
 .top  {
 	font-size: 3em;
+
 	}
 
 .top li {
@@ -36,3 +40,11 @@ section.green {
 
 }
 
+a {
+	text-decoration: none;
+	color: #ffe;
+}
+
+a:hover {
+	color:gold;
+	}
