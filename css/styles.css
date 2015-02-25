@@ -43,6 +43,8 @@ nav {
 nav#main-nav {
 	padding: 10px 10px 15px 10px;
 	display:block;
+	position:relative;
+	z-index:100;
 }
 
 .types {
@@ -51,18 +53,3 @@ nav#main-nav {
 	padding-top:10px;
 }
 
-section.red {
-	background-color: firebrick;
-}
-
-section.yellow {
-	background: gold;
-}
-
-section.blue {
-	background-color: #3333ff;
-}
-
-section.green {
-	background-color: #006600;
-}
