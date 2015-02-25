@@ -10,6 +10,7 @@ header {
 }
 
 .maru-logo {
+	width:25%;
 	margin:50px;
 }
 
@@ -32,7 +33,7 @@ a:hover {
 	}
 /*MAIN NAV STYLINGS*/
 
-aside {
+aside, h4{
 	background: #000;
 	display:block;
 }
@@ -47,9 +48,18 @@ nav#main-nav {
 	z-index:100;
 }
 
+i.leaf.icon {
+	color:#ADFF2F;
+}
+
 .types {
 	text-align: right;
 	font-size: 1.15em;
 	padding-top:10px;
+}
+
+h4 {
+	text-align: center;
+	padding: 15px 0;
 }
 
