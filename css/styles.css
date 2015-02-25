@@ -5,13 +5,50 @@ body {
 
 header {
 	background: url("../img/daruma_blur.jpg") no-repeat;
-	position: relative;
-	width: 100%;
+	
 
+}
+
+.maru-logo {
+	margin:50px;
 }
 
 ul {
 list-style: none;
+}
+
+.top  {
+	font-size: 3em;
+
+	}
+
+a {
+	text-decoration: none;
+	color: #ffe;
+}
+
+a:hover {
+	color:purple;
+	}
+/*MAIN NAV STYLINGS*/
+
+aside {
+	background: #000;
+	display:block;
+}
+nav {
+	background: #000;
+}
+ 
+nav#main-nav {
+	padding: 10px 10px 15px 10px;
+	display:block;
+}
+
+.types {
+	text-align: right;
+	font-size: 1.15em;
+	padding-top:10px;
 }
 
 section.red {
@@ -29,22 +66,3 @@ section.blue {
 section.green {
 	background-color: #006600;
 }
-.top  {
-	font-size: 3em;
-
-	}
-
-.top li {
-	display: inline;
-	margin:10px 50px;
-
-}
-
-a {
-	text-decoration: none;
-	color: #ffe;
-}
-
-a:hover {
-	color:gold;
-	}
