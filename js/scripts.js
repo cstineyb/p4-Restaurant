@@ -6,8 +6,11 @@ $(window).load(function(){
     });
 
 
-$('.event.example .image')
-  .dimmer({
-    on: 'hover'
+
+//POP UP
+
+$('ui.circle.icon')
+  .popup({
+    inline: true
   })
 ;
