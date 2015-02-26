@@ -5,12 +5,5 @@ $(window).load(function(){
       $("#main-nav").sticky({ topSpacing: 0 });
     });
 
+//MENU ITEM REVEAL
 
-
-//POP UP
-
-$('ui.circle.icon')
-  .popup({
-    inline: true
-  })
-;

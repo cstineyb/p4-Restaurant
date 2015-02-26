@@ -77,3 +77,11 @@ section ul li {
 	padding-left: 0; 
 }
 
+
+footer span {
+    word-spacing: 1vw;
+}
+
+section img {
+	margin-bottom: 5px;
+}
