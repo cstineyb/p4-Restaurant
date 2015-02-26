@@ -29,8 +29,9 @@ a {
 }
 
 a:hover {
-	color:purple;
+	color:firebrick;
 	}
+
 /*MAIN NAV STYLINGS*/
 
 aside, h4{
@@ -57,6 +58,8 @@ i.leaf.icon {
 	font-size: 1.15em;
 	padding-top:10px;
 }
+
+
 
 
 h3 { margin: 10px 0;}
