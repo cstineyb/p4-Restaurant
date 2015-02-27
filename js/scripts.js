@@ -25,6 +25,16 @@ $('div.types a.spicy').click(function(){
   
   $('section.item').hide();
   $('section.spicy').show();
+
+
+  });
+$('div.types a.spicy').click(function(){
+  
+  
+  $('section.spicy').hide();
+  $('section.item').show();
+  
+
   });
 
 
