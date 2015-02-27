@@ -7,4 +7,24 @@ $(window).load(function(){
 
 //HIDE AND REVEAL MENU ITEMS BY TYPE
 
-//APPEND MENU ITEMS WITH SYMBOLs
+$('div.types a.raw').click(function(){
+  
+  $('section.item').hide();
+  $('section.raw').show();
+  });
+
+
+$('div.types a.veg').click(function(){
+  
+  $('section.item').hide();
+  $('section.veg').show();
+  });
+
+
+$('div.types a.spicy').click(function(){
+  
+  $('section.item').hide();
+  $('section.spicy').show();
+  });
+
+
