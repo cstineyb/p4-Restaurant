@@ -49,6 +49,8 @@ nav#main-nav {
 	z-index:100;
 }
 
+
+
 i.leaf.icon {
 	color:#ADFF2F;
 }
@@ -87,4 +89,7 @@ footer span {
 .ui.grid>.row>.red.column,
 .ui.grid>.row>.green.column{
 	margin-bottom:14px;
+}
+aside.ui.column.sixteen.wide {
+	padding:0 0 0 0;
 }
