@@ -16,10 +16,30 @@ header {
 
 ul {
 list-style: none;
+padding-bottom:10px;
 }
 
-.top  {
-	font-size: 3em;
+.yellow ul {
+	background: gold;
+}
+
+.blue ul {
+	background: cornflowerblue;
+}
+
+.red ul {
+	background: salmon;
+}
+
+.green ul {
+	background: #77B862;
+}
+
+div.row.four.wide.floated.right  {
+	font-size: 2em;
+	padding-bottom:20px;
+	position:relative;
+	float:right;
 
 	}
 
@@ -93,3 +113,49 @@ footer span {
 aside.ui.column.sixteen.wide {
 	padding:0 0 0 0;
 }
+
+
+/*BREAK POINTS*/
+
+/*MOBILE*/
+@media  (max-width: 767px) {
+	.types {
+		width: 100%;
+		padding-left:0;
+
+			
+	}
+	.types a {
+		pointer-events: none;
+       cursor: default;
+
+	}
+	 
+	header {
+		height:80px;
+	}
+	img.maru-logo {
+		position:absolute;
+		padding:2px 2px;
+		margin:0 0 ;
+	}
+	#main-nav i.icon  {
+
+		font-size: 1.25em;
+	}
+}
+
+
+
+/*TABLET
+@media  (min-width: 768px) {
+
+	
+}
+
+
+/*DESKTOP
+@media  (min-width: 992px) {
+
+	
+}*/
