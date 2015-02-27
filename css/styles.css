@@ -82,6 +82,9 @@ footer span {
     word-spacing: 1vw;
 }
 
-section img {
-	margin-bottom: 5px;
+.ui.grid>.row>.yellow.column, 
+.ui.grid>.row>.blue.column,
+.ui.grid>.row>.red.column,
+.ui.grid>.row>.green.column{
+	margin-bottom:14px;
 }
