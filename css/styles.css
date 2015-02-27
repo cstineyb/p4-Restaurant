@@ -114,7 +114,7 @@ footer span {
 .ui.grid>.row>.green.column{
 	margin-bottom:14px;
 }
-aside.ui.column.sixteen.wide {
+aside.ui.column.sixteen.wide.fluid {
 	padding:0 0 0 0;
 }
 
@@ -130,29 +130,38 @@ aside.ui.column.sixteen.wide {
 			
 	}
 	.types a {
+		font: 1em;
 		pointer-events: none;
        cursor: default;
 
 	}
 	 
-	header {
-		height:100px;
-	}
+	header.ui.column.sixteen.wide.fluid {
+		height:120px;
+		}
+
 	img.maru-logo {
 		position:absolute;
-		padding:2px 2px;
-		margin:0 0 ;
+		padding:5px 2px 0 2px;
+		margin:3px 3px ;
 	}
 	#main-nav i.icon  {
 
-		font-size: 1.25em;
+		font-size: 1em;
 	}
+
 	ul {
 	list-style: none;
 	padding-bottom:5px;
 	width:90%;
 	margin: 0 auto ;
 }
+
+	aside.ui.column.sixteen.wide.fluid {
+	padding:0 0 0 0;
+	height:30px;
+}
+
 }
 
 
