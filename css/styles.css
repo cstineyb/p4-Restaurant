@@ -1,6 +1,7 @@
 body {
 	background: url("../img/concrete_wall.png") repeat;
 	color: #fff;
+	font-family: 'Nunito', sans-serif;
 }
 
 header {
@@ -38,6 +39,7 @@ padding-bottom:10px;
 div.row.four.wide.floated.right  {
 	font-size: 2em;
 	padding-bottom:20px;
+	padding-top: 5px;
 	position:relative;
 	float:right;
 
@@ -84,7 +86,9 @@ i.leaf.icon {
 
 
 
-h3 { margin: 10px 0;}
+h3 { margin: 10px 0;
+	font-family: 'Nunito', sans-serif;
+}
 
 h4 {
 	text-align: center;
@@ -143,6 +147,12 @@ aside.ui.column.sixteen.wide {
 
 		font-size: 1.25em;
 	}
+	ul {
+	list-style: none;
+	padding-bottom:5px;
+	width:90%;
+	margin: 0 auto ;
+}
 }
 
 
